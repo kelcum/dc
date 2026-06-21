@@ -1,1 +1,47 @@
 @import url("https://raw.githubusercontent.com/kelcum/dc/main/themet1.css");
+
+/* =========================
+   T1 CLEAN GLASS
+   ========================= */
+
+:root{
+  --backgroundBlur-app: 2;
+  --backgroundBlur-server: 4;
+}
+
+/* Rounded member cards */
+.layout__91a9d{
+  border-radius: 14px !important;
+}
+
+/* Softer member hover */
+.layout__91a9d:hover{
+  background: rgba(255,255,255,.035) !important;
+}
+
+/* Rounded search bar */
+.searchBar_e6b769{
+  border-radius: 16px !important;
+}
+
+/* Rounded textarea */
+.channelTextArea__74017{
+  border-radius: 28px !important;
+}
+
+/* Slight glass effect */
+.channelTextArea__74017,
+.searchBar_e6b769{
+  backdrop-filter: blur(6px);
+}
+
+/* Rounded embed cards */
+.embedFull__623de{
+  border-radius: 16px !important;
+}
+
+/* Cleaner message hover */
+[class*="message"]:hover{
+  background: rgba(255,255,255,.02) !important;
+  border-radius: 12px;
+}
