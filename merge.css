@@ -1,41 +1,44 @@
 @import url("https://raw.githubusercontent.com/kelcum/dc/main/themet1.css");
 
-/* =========================
-   T1 CLEAN GLASS
-   ========================= */
+/* ===================================
+   T1 x Translucence Lite
+   =================================== */
 
 :root{
-  --backgroundBlur-app: 2;
-  --backgroundBlur-server: 4;
-}
 
-/* Rounded member cards */
-.layout__91a9d{
-  border-radius: 14px !important;
-}
+/* Your backgrounds */
+--background-app: url("https://i.postimg.cc/g0mxrJLh/9w8m5tm.png");
+--background-server: url("https://i.pinimg.com/736x/2a/83/35/2a8335d64d21ab8186f486e6495");
 
-/* Softer member hover */
-.layout__91a9d:hover{
-  background: rgba(255,255,255,.035) !important;
-}
+/* Less blur */
+--backgroundBlur-app: 2;
+--backgroundBlur-server: 4;
 
-/* Rounded search bar */
-.searchBar_e6b769{
-  border-radius: 16px !important;
 }
 
 /* Rounded textarea */
 .channelTextArea__74017{
   border-radius: 28px !important;
-}
-
-/* Slight glass effect */
-.channelTextArea__74017,
-.searchBar_e6b769{
   backdrop-filter: blur(6px);
 }
 
-/* Rounded embed cards */
+/* Rounded search */
+.searchBar_e6b769{
+  border-radius: 16px !important;
+  backdrop-filter: blur(6px);
+}
+
+/* Rounded member cards */
+.layout__91a9d{
+  border-radius: 14px !important;
+  transition: .15s ease;
+}
+
+.layout__91a9d:hover{
+  background: rgba(255,255,255,.035) !important;
+}
+
+/* Rounded embeds */
 .embedFull__623de{
   border-radius: 16px !important;
 }
@@ -44,4 +47,17 @@
 [class*="message"]:hover{
   background: rgba(255,255,255,.02) !important;
   border-radius: 12px;
+}
+
+/* Glass popouts */
+.menu_c1e9c4,
+.layer_da8173{
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+}
+
+/* Slight glass effect on search/input */
+.channelTextArea__74017,
+.searchBar_e6b769{
+  background: rgba(255,255,255,.04) !important;
 }
