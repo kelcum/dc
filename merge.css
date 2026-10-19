@@ -8,10 +8,6 @@
     --backgroundBlur-server:4;
 }
 
-/* ===========================
-   ROUNDED CLIENT
-   =========================== */
-
 .appMount__51fd7,
 .app__160d8,
 .base_c48ade{
@@ -19,20 +15,12 @@
     overflow:hidden !important;
 }
 
-/* ===========================
-   GLASS SIDEBARS
-   =========================== */
-
 .membersWrap_c8ffbb,
 .members_c8ffbb{
     background:rgba(0,0,0,.12)!important;
     backdrop-filter:blur(12px) saturate(140%)!important;
     border-radius:16px!important;
 }
-
-/* ===========================
-   MEMBER CARDS
-   =========================== */
 
 .layout__91a9d{
     border-radius:14px!important;
@@ -42,10 +30,6 @@
 .layout__91a9d:hover{
     background:rgba(255,255,255,.04)!important;
 }
-
-/* ===========================
-   CHANNEL GLASS
-   =========================== */
 
 [class*="link_"]{
     border-radius:14px!important;
@@ -59,8 +43,6 @@
     box-shadow:0 0 10px rgba(180,140,255,.12);
 }
 
-/* selected channel */
-
 [class*="modeSelected"] [class*="link_"]{
     background:rgba(180,140,255,.12)!important;
     backdrop-filter:blur(14px) saturate(150%)!important;
@@ -69,10 +51,6 @@
         0 0 14px rgba(180,140,255,.22),
         inset 0 1px rgba(255,255,255,.05);
 }
-
-/* ===========================
-   PURPLE TEXT GLOW
-   =========================== */
 
 [class*="name-"],
 [class*="channelName-"],
@@ -93,8 +71,6 @@
         0 0 18px rgba(210,180,255,.30);
 }
 
-/* category names */
-
 [class*="containerDefault_"] [class*="name"]{
 
     color:#d6c3ff!important;
@@ -103,10 +79,6 @@
         0 0 6px rgba(180,140,255,.40),
         0 0 14px rgba(180,140,255,.20);
 }
-
-/* ===========================
-   REMOVE MESSAGE BUBBLES
-   =========================== */
 
 [class*="messageContent"]{
     background:transparent!important;
@@ -120,10 +92,6 @@
 [class*="message"]:hover{
     background:transparent!important;
 }
-
-/* ===========================
-   GLASS MESSAGE BAR
-   =========================== */
 
 .channelTextArea__74017{
 
@@ -149,10 +117,6 @@
     border:none!important;
 }
 
-/* ===========================
-   SEARCH BAR
-   =========================== */
-
 .searchBar_e6b769{
 
     border-radius:18px!important;
@@ -168,18 +132,10 @@
         1px solid rgba(255,255,255,.08)!important;
 }
 
-/* ===========================
-   EMBEDS
-   =========================== */
-
 .embedFull__623de{
     border-radius:16px!important;
     overflow:hidden;
 }
-
-/* ===========================
-   POPOUTS
-   =========================== */
 
 .menu_c1e9c4,
 .layer_da8173{
@@ -193,10 +149,6 @@
         blur(16px)
         saturate(140%)!important;
 }
-
-/* ===========================
-   CHAT AREA
-   =========================== */
 
 .chat_f75fb0,
 .content_f75fb0{
